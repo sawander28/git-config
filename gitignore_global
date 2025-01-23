@@ -1,0 +1,58 @@
+# $Id: /root/.gitignore_global wandsas 2018/08/25
+
+# Archives
+*.7z
+*.bzip
+*.bz2
+*.cab
+*.gz
+*.iso
+*.img
+*.jar
+*.lzma
+*.rar
+*.tar
+*.xz
+*.zip
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.xbps
+
+_
+# Tags
+/CVS/*
+**/CVS/*
+.cvsignore
+*/.cvsignore
+tags
+TAGS
+
+
+.Trash-*
+
+
+# Compiler
+a.out
+*.o
+
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icons
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
