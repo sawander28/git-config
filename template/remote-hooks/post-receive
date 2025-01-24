@@ -1,5 +1,4 @@
 #!/bin/sh
-
 TARGET="/home/git"
 GIT_DIR="/home/git"
 BRANCH="master"
