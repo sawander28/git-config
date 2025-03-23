@@ -22,4 +22,7 @@
 	gpgsign = true
 
 [init]
-	defaultBranch = master
+  defaultBranch = master
+
+[core}
+  excludesFile = ~/.config/git/gitignore_global
