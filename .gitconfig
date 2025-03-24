@@ -24,6 +24,6 @@
 [init]
   defaultBranch = master
 
-[core}
+[core]
   excludesFile = ~/.config/git/gitignore_global
-  #hooksPath = ~/.config/git/hooks
+  hooksPath = ~/.config/git/hooks
