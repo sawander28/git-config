@@ -1,7 +1,7 @@
 #!/bin/sh
-TARGET="/home/git"
-GIT_DIR="/home/git"
-BRANCH="master"
+TARGET="/repos"
+GIT_DIR="/repos"
+BRANCH="main"
 
 while read oldrev newrev ref
 do
