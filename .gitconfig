@@ -1,7 +1,10 @@
 [user]
-	email = sascha.wander@onionmail.com
-  name = Sascha Wander <wandsas>
+    email = sascha.wander@onionmail.com
+    name = Sascha Wander <wandsas>
 	signingkey = 0x56303570E0D0B038
+
+[init]
+    defaultBranch = main
 
 [alias]
 	l = log --pretty='format:%h %G? %s%d' -n 20 --graph
@@ -21,9 +24,6 @@
 [tag]
 	gpgsign = true
 
-[init]
-  defaultBranch = main
-
 [core]
-  excludesFile = ~/.config/git/gitignore_global
-  hooksPath = ~/.config/git/hooks
+    excludesFile = ~/.config/git/gitignore_global
+    hooksPath = ~/.config/git/hooks
