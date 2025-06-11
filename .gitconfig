@@ -6,6 +6,10 @@
 [init]
     defaultBranch = main
 
+[core]
+    excludesFile = ~/.config/git/gitignore_global
+    hooksPath = ~/.config/git/hooks
+
 [alias]
 	l = log --pretty='format:%h %G? %s%d' -n 20 --graph
 	tags = tag -l
@@ -24,6 +28,6 @@
 [tag]
 	gpgsign = true
 
-[core]
-    excludesFile = ~/.config/git/gitignore_global
-    hooksPath = ~/.config/git/hooks
+# @TODO: added only temporary for testing git-http-backend with self-signed certs
+[http]
+	sslVerify = false
