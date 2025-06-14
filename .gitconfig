@@ -27,7 +27,13 @@
 
 [tag]
 	gpgsign = true
-
-# @TODO: added only temporary for testing git-http-backend with self-signed certs
-[http]
-	sslVerify = false
+[pull]
+	rebase = false
+[gui]
+	pruneduringfetch = true
+[smartgit "submodule"]
+	fetchalways = false
+	update = true
+	initializenew = true
+[push]
+	recurseSubmodules = check
