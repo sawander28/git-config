@@ -2,14 +2,14 @@
     email = sascha.wander@onionmail.com
     name = Sascha Wander <wandsas>
 	signingkey = 0x56303570E0D0B038
-
 [init]
     defaultBranch = main
-
+[push]
+    default = simple
 [core]
     excludesFile = ~/.config/git/gitignore_global
     hooksPath = ~/.config/git/hooks
-
+    compression = 9
 [alias]
 	l = log --pretty='format:%h %G? %s%d' -n 20 --graph
 	tags = tag -l
@@ -17,13 +17,12 @@
 	remotes = remote -v
 	s = status -sb
 	ss = s -uno
-
 [color]
-	ui = false
+	ui = true
 	diff = auto
-
 [commit]
 	gpgsign = true
-
 [tag]
-	gpgsign = true
+    gpgsign = true
+[sendemail]
+    from = Sasha Wander <sascha.wander@onionmail.com>
