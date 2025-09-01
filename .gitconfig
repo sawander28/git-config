@@ -26,3 +26,9 @@
     gpgsign = true
 [sendemail]
     from = Sascha Wander <sawander28@outlook.com>
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1110x829+0+0
+	history-view-vpane-position = 431
+	file-view-vpane-position = 695
+	main-window-view = HistoryView
