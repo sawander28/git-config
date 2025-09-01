@@ -1,5 +1,5 @@
 [user]
-    email = sawander@protonmail.com
+    email = sawander28@outlook.com
     name = Sascha Wander <wandsas>
 	signingkey = 0x56303570E0D0B038
 [init]
@@ -25,4 +25,4 @@
 [tag]
     gpgsign = true
 [sendemail]
-    from = Sascha Wander <sascha.wander@protonmail.com>
+    from = Sascha Wander <sawander28@outlook.com>
