@@ -25,4 +25,4 @@
 [tag]
     gpgsign = true
 [sendemail]
-    from = Sasha Wander <sascha.wander@protonmail.com>
+    from = Sascha Wander <sascha.wander@protonmail.com>
